@@ -27,6 +27,7 @@ RUN sudo chown -R coder:coder /home/coder/.local
 RUN code-server --install-extension actboy168.tasks
 RUN code-server --install-extension ms-python.python
 RUN code-server --install-extension dongli.python-preview
+RUN code-server --install-extension sidthesloth.html5-boilerplate
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
 
